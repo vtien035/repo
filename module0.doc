@@ -1,0 +1,43 @@
+Moduel 0 : Introduction
+
+    -	HTTP protocols:
+    HTTP (HyperText Transfer Protocol - Giao thức truyền tải siêu văn bản) là một trong các giao thức chuẩn về mạng Internet, được dùng để liên hệ thông tin giữa Máy cung cấp dịch vụ (Web server) 
+và Máy sử dụng dịch vụ (Web client), là giao thức Client/Server dùng cho World Wide Web – WWW
+    HTTP là một giao thức ứng dụng của bộ giao thức TCP/IP (các giao thức nền tảng cho Internet).
+    HTTP hoạt động dựa trên mô hình Client – Server. Trong mô hình này, các máy tính của người dùng sẽ đóng vai trò làm máy khách (Client). 
+Sau một thao tác nào đó của người dùng, các máy khách sẽ gửi yêu cầu đến máy chủ (Server) và chờ đợi câu trả lời từ những máy chủ này.
+    HTTP cho phép tạo các yêu cầu gửi và nhận các kiểu dữ liệu, do đó cho phép xây dựng hệ thống độc lập với dữ liệu được truyển giao.
+        Các thành phần chính của HTTP
+    HTTP - Requests
+    HTTP Request Method: Là phương thức để chỉ ra hành động mong muốn được thực hiện trên tài nguyên đã xác định.
+Cấu trúc của một HTTP Request:
+•	Một Request-line = Phương thức + URI–Request + Phiên bản HTTP . Giao thức HTTP định nghĩa một tập các giao thức GET, POST, HEAD, PUT ... Client có thể sử dụng một trong các phương thức đó để gửi request lên server.
+•	Có thể có hoặc không các trường header
+•	Một dòng trống để đánh dấu sự kết thúc của các trường Header.
+Request Header Fields: Các trường header cho phép client truyền thông tin bổ sung về yêu cầu, và về chính client, đến server. Một số trường: Accept-Charset, Accept-Encoding, Accept-Language, Authorization, Expect, From, Host, …
+•	Tùy chọn một thông điệp
+Khi request đến server, server thực hiện một trong 3 hành động sau:
+Server phân tích request nhận được, maps yêu cầu với tập tin trong tập tài liệu của server, và trả lại tập tin yêu cầu cho client.
+Server phân tích request nhận được, maps yêu cầu vào một chương trình trên server, thực thi chương trình và trả lại kết quả của chương trình đó.
+Request từ client không thể đáp ứng, server trả lại thông báo lỗi.
+Giao thức HTTP định nghĩa một tập các phương thức request, client có thể sử dụng một trong các phương thức này để tạo request tới HTTP server, dưới đây liệt kê một số phương thức phổ biến.
+
+HTTP - Responses
+Cấu trúc của một HTTP response:
+•	Một Status-line = Phiên bản HTTP + Mã trạng thái + Trạng thái
+•	Có thể có hoặc không có các trường header
+•	Một dòng trống để đánh dấu sự kết thúc của các trường header
+•	Tùy chọn một thông điệp
+Mã trạng thái: Thông báo về kết quả khi nhận được yêu cầu và xử lí bên server cho client.
+Các kiểu mã trạng thái:
+1xx: Thông tin (100 -> 101)
+•	VD: 100 (Continue), ….
+2xx: Thành công (200 -> 206)
+•	VD: 200 (OK) , 201 (CREATED), …
+3xx: Sự điều hướng lại (300 -> 307)
+•	VD: 305 (USE PROXY), …
+4xx: Lỗi phía Client (400 -> 417)
+•	VD: 403 (FORBIDDEN), 404 (NOT FOUND), …
+5xx: Lỗi phía Server (500 -> 505)
+•	VD: 500 (INTERNAL SERVER ERROR)
+
