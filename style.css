@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff69b4;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.candy {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.candy h2 {
+    margin: 0;
+}
+
+.candy p {
+    margin: 0;
+}
+
+.unavailable {
+    background-color: #ff0000;
+    color: white;
+}
