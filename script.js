@@ -1,20 +1,27 @@
-document.addEventListener('DOMContentLoaded', function() {
-    fetch('https://codepen.io/eclairereese/pen/OXRjWV.js')
-        .then(response => response.json())
-        .then(data => {
-            const candyListing = document.getElementById('candyListing');
-            data.forEach(candy => {
-                const candyDiv = document.createElement('div');
-                candyDiv.className = 'candy';
-                if (candy.quantity <= 0) {
-                    candyDiv.className += ' unavailable';
-                }
-                candyDiv.innerHTML = `
-                    <h2>${candy.name}</h2>
-                    <p>Price: $${candy.price}</p>
-                    <p>Quantity: ${candy.quantity}</p>
-                `;
-                candyListing.appendChild(candyDiv);
-            });
-        });
+const loginForm = document.getElementById('login-form');
+
+loginForm.addEventListener('submit', (e) => {
+	e.preventDefault();
+
+	const username = document.getElementById('username').value;
+	const password = document.getElementById('password').value;
+
+	// Validate the form fields
+	if (username === '' || password === '') {
+		alert('Please fill in all fields');
+		return;
+	}
+
+	// Check if the username and password match a valid user
+	const validUser = {
+		username: 'admin',
+		password: 'password'
+	};
+
+	if (username === validUser.username && password === validUser.password) {
+		alert('Login successful');
+		// Redirect to a dashboard or homepage
+	} else {
+		alert('Invalid username or password');
+	}
 });
