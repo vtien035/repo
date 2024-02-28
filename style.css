@@ -72,3 +72,14 @@ main {
 footer {
 	background-color: #f4f4f4;
 	padding: 20px;
+}
+.pagination {
+		display: inline-block;
+	  }
+	  
+.pagination a {
+		color: black;
+		float: left;
+		padding: 8px 16px;
+		text-decoration: none;
+}
