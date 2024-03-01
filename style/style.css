@@ -50,11 +50,25 @@ nav {
     max-width: 160px;
     margin: 0;
     padding: 1em;
+	background: #7FFFD4;
+  width: 250px;
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
 }
  
 nav ul {
     list-style-type: none;
     padding: 0;
+}
+nav li a{
+	text-decoration: none;
+  color: #0C0A0A;
+  font-weight: bold;
+  display: block;
+}
+nav li:hover{
+	background: #f1f1f1;
 }
     
 nav ul a {
@@ -66,7 +80,9 @@ nav ul a {
 	grid-gap: 20px;
 	
 }
-
+p {
+	text-overflow: ellipsis;
+}
 .product {
 	padding: 20px;
 	border: 1px solid #ccc;
