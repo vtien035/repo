@@ -8,6 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="/style/style.css">
   <link rel="shortcut icon" href="/img/icon.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -19,16 +20,18 @@
       <li><a href="/index.html">Home</a></li>
       <li><a href="#">About</a></li>
       <li><a href="/page/contact.html">Contact</a></li>
+      <div class="search-container">
+        <input type="text" placeholder="Search..">
+        <button type="submit"> Search</button>
+      </div>
     </ul>
+
   </div>
-  <div class="search-container">
-    <input type="text" placeholder="Search..">
-    <button type="submit"> Search</button>
-  </div>
+
   <main class="px-4 py-16">
     <section class="products">
       <nav>
-        <ul>
+        <ul class="post">
           <li>
             <h2>Tìm kiếm</h2>
           </li>
@@ -42,16 +45,16 @@
             <h3><a href="#">Giảm giá</a></h3>
           </li>
           <li>
-            <h2>Đơn vị phụ trách</h2>
+            <h2>Loại mặt hàng</h2>
           </li>
           <li>
-            <h3><a href="#">Express</a></h3>
+            <h3><a href="#">Linh kiện - Phụ kiện</a></h3>
           </li>
           <li>
-            <h3><a href="#">Giao hàng tiết kiệm</a></h3>
+            <h3><a href="#">Laptop</a></h3>
           </li>
           <li>
-            <h3><a href="#">Ahamove</a></h3>
+            <h3><a href="#">Điện thoại</a></h3>
           </li>
         </ul>
       </nav>
@@ -64,10 +67,7 @@
         <br>
         <br>
         <br>
-        <br>
-        <br>
-        <br>
-        <p>Price: 10¥</p>
+          <p>Price: 10¥</p>
       </div>
       <div class="product">
         <a href="#"><img src="/img/1200px-Lotus_flower_(978659).jpg" alt="Product 2"></a>
@@ -75,13 +75,24 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Magni minus asperiores, adipisci consequuntur quo odit excepturi quae incidunt
           quas dolorem iste provident, nobis praesentium nulla necessitatibus error? A, modi corporis.</p>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <p>Price: 15¥</p>
+          <br><br><br><p>Price: 15¥</p>
+      </div>
+      <div class="product">
+        <a href="#"><img src="/img/1200px-Lotus_flower_(978659).jpg" alt="Product 2"></a>
+        <h3><a href="#">Product 2</a></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Magni minus asperiores, adipisci consequuntur quo odit excepturi quae incidunt
+          quas dolorem iste provident, nobis praesentium nulla necessitatibus error? A, modi corporis.</p>
+
+          <br><br><br><p>Price: 15¥</p>
+      </div>
+      <div class="product">
+        <a href="#"><img src="/img/1200px-Lotus_flower_(978659).jpg" alt="Product 2"></a>
+        <h3><a href="#">Product 2</a></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Magni minus asperiores, adipisci consequuntur quo odit excepturi quae incidunt
+          quas dolorem iste provident, nobis praesentium nulla necessitatibus error? A, modi corporis.</p>
+          <br><br><br><p>Price: 15¥</p>
       </div>
       <div class="product">
         <a href="#"><img src="/img/1200px-Lotus_flower_(978659).jpg" alt="Product 3"></a>
@@ -89,13 +100,7 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Magni minus asperiores, adipisci consequuntur quo odit excepturi quae incidunt
           quas dolorem iste provident, nobis praesentium nulla necessitatibus error? A, modi corporis.</p>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <p>Price: 20¥</p>
+          <br><br><br><p>Price: 20¥</p>
       </div>
     </section>
     <div class="pagination">
@@ -162,7 +167,18 @@
         <p class="text-sm">
           &copy; 2024 Food Store
         </p>
-        
+        <div class="list-button">
+          <a href="#" class="button facebook">
+            <span class="button-icon">
+            <i class="fa-brands fa-facebook"></i>
+          </span>
+          </a>
+          <a href="#" class="button instagram">
+            <span class="button-icon">
+              <i class="fa-brands fa-instagram"></i>
+            </span>
+          </a>
+        </div>
       </div>
       <ul class="flex justify-end">
         <li><a href="#" class="text-sm">Privacy Policy</a></li>
