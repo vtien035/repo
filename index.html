@@ -1,149 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Food Store</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/style/style.css">
-	<link rel="shortcut icon" href="/img/icon.jpg" type="image/x-icon">
-  </head>
-  <body>
-    <header class="bg-blue-500 text-white text-center py-18">
-      <h1 class="text-4xl">Food Store</h1>
-    </header>
-    <div>
-      <ul class="bg-blue-500 text-black">
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="/page/contact.html">Contact</a></li>
-		</ul>
-	</div>
-	<div class="search-container">
-		<form action="/action_page.php">
-			<input type="text" placeholder="Tìm kiếm.." name="search">
-			<button type="submit"><i class="fa fa-search"></i></button>
-		  </form>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Food Store</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/style/style.css">
+  <link rel="shortcut icon" href="/img/icon.jpg" type="image/x-icon">
+</head>
+
+<body>
+  <header class="bg-blue-500 text-white text-center py-18">
+    <h1 class="text-4xl">Food Store</h1>
+  </header>
+  <div>
+    <ul class="bg-blue-500 text-black">
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="/page/contact.html">Contact</a></li>
+    </ul>
+  </div>
+  <div class="search-container">
+    <input type="text" placeholder="Search..">
+    <button type="submit"> Search</button>
+  </div>
+  <main class="px-4 py-16">
+    <section class="products">
+      <nav>
+        <ul>
+          <li>
+            <h2>Tìm kiếm</h2>
+          </li>
+          <li>
+            <h3><a href="#">Sản phẩm</a></h3>
+          </li>
+          <li>
+            <h3><a href="#">Bán chạy</a></h3>
+          </li>
+          <li>
+            <h3><a href="#">Giảm giá</a></h3>
+          </li>
+          <li>
+            <h2>Đơn vị phụ trách</h2>
+          </li>
+          <li>
+            <h3><a href="#">Express</a></h3>
+          </li>
+          <li>
+            <h3><a href="#">Giao hàng tiết kiệm</a></h3>
+          </li>
+          <li>
+            <h3><a href="#">Ahamove</a></h3>
+          </li>
+        </ul>
+      </nav>
+      <div class="product">
+        <a href="#"><img src="/img/1200px-Lotus_flower_(978659).jpg" alt="Product 1"></a>
+        <h3><a href="#">Product 1</a></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Magni minus asperiores, adipisci consequuntur quo odit excepturi quae incidunt
+          quas dolorem iste provident, nobis praesentium nulla necessitatibus error? A, modi corporis.</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>Price: 10¥</p>
+      </div>
+      <div class="product">
+        <a href="#"><img src="/img/1200px-Lotus_flower_(978659).jpg" alt="Product 2"></a>
+        <h3><a href="#">Product 2</a></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Magni minus asperiores, adipisci consequuntur quo odit excepturi quae incidunt
+          quas dolorem iste provident, nobis praesentium nulla necessitatibus error? A, modi corporis.</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>Price: 15¥</p>
+      </div>
+      <div class="product">
+        <a href="#"><img src="/img/1200px-Lotus_flower_(978659).jpg" alt="Product 3"></a>
+        <h3><a href="#">Product 3</a></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Magni minus asperiores, adipisci consequuntur quo odit excepturi quae incidunt
+          quas dolorem iste provident, nobis praesentium nulla necessitatibus error? A, modi corporis.</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>Price: 20¥</p>
+      </div>
+    </section>
+    <div class="pagination">
+      <a href="#">Previous</a>
+      <a href="#">1</a>
+      <a href="/page/page1.html">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">5</a>
+      <a href="#">6</a>
+      <a href="#">Next</a>
     </div>
-    <main class="px-4 py-16">
-        <section class="products">
-          <nav>
-			<ul>
-          <li><h2>Tìm kiếm</h2></li>
-          <li><h3><a href="#">Sản phẩm</a></h3></li>
-		  <li><h3><a href="#">Bán chạy</a></h3></li>
-          <li><h3><a href="#">Giảm giá</a></h3></li>
-		  <li><h2>Đơn vị phụ trách</h2></li>
-          <li><h3><a href="#">Express</a></h3></li>
-		  <li><h3><a href="#">Giao hàng tiết kiệm</a></h3></li>
-          <li><h3><a href="#">Ahamove</a></h3></li>
-		</ul>
-        </nav>
-          <div class="product">
-            <a href="#"><img src="/img/1200px-Lotus_flower_(978659).jpg" alt="Product 1"></a>
-            <h3><a href="#">Product 1</a></h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Magni minus asperiores, adipisci consequuntur quo odit excepturi quae incidunt 
-            quas dolorem iste provident, nobis praesentium nulla necessitatibus error? A, modi corporis.</p>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-            <p>Price: 10¥</p>
-          </div>
-          <div class="product">
-            <a href="#"><img src="/img/1200px-Lotus_flower_(978659).jpg" alt="Product 2"></a>
-            <h3><a href="#">Product 2</a></h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Magni minus asperiores, adipisci consequuntur quo odit excepturi quae incidunt 
-            quas dolorem iste provident, nobis praesentium nulla necessitatibus error? A, modi corporis.</p>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-            <p>Price: 15¥</p>
-          </div>
-          <div class="product">
-            <a href="#"><img src="/img/1200px-Lotus_flower_(978659).jpg" alt="Product 3"></a>
-            <h3><a href="#">Product 3</a></h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Magni minus asperiores, adipisci consequuntur quo odit excepturi quae incidunt 
-            quas dolorem iste provident, nobis praesentium nulla necessitatibus error? A, modi corporis.</p>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-            <p>Price: 20¥</p>
-          </div>
-        </section>
-        <div class="pagination">
-          <a href="#">Previous</a>
-          <a href="#">1</a>
-          <a href="/page/page1.html">2</a>
-          <a href="#">3</a>
-          <a href="#">4</a>
-          <a href="#">5</a>
-          <a href="#">6</a>
-          <a href="#">Next</a>
-          </div>
 
-      <section>
-        <h2 class="text-2xl text-blue-500">Other</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-          <div class="bg-gray-100 p-4 rounded-lg">
-            <img src="/img/rong.png" alt="Product 1" class="w-full h-32 object-cover rounded-lg mb-4" />
-            <h3 class="text-blue-500 text-lg"><a href="#">Product 1</a> </h3>
-            <p class="text-gray-600">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-			  Sit hic dolorum repellendus eum veritatis. 
-			  Delectus dolor labore facilis veritatis quam laborum ducimus 
-			  voluptatum blanditiis sapiente qui, animi illum corrupti dignissimos?
-            </p>
-          </div>
-          <div class="bg-gray-100 p-4 rounded-lg">
-            <img src="/img/rong.png" alt="Product 2" class="w-full h-32 object-cover rounded-lg mb-4" />
-            <h3 class="text-blue-500 text-lg"><a href="#">Product 2</a></h3>
-            <p class="text-gray-600">
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-				Sit hic dolorum repellendus eum veritatis. 
-				Delectus dolor labore facilis veritatis quam laborum ducimus 
-				voluptatum blanditiis sapiente qui, animi illum corrupti dignissimos?
-            </p>
-          </div>
-          <div class="bg-gray-100 p-4 rounded-lg">
-            <img src="/img/rong.png" alt="Product 3" class="w-full h-32 object-cover rounded-lg mb-4" />
-            <h3 class="text-blue-500 text-lg"><a href="#">Product 3</a></h3>
-            <p class="text-gray-600">
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-				Sit hic dolorum repellendus eum veritatis. 
-				Delectus dolor labore facilis veritatis quam laborum ducimus 
-				voluptatum blanditiis sapiente qui, animi illum corrupti dignissimos?
-            </p>
-          </div>
-          <div class="bg-gray-100 p-4 rounded-lg">
-            <img src="/img/ngua.jpg" alt="Product 4" class="w-full h-32 object-cover rounded-lg mb-4" />
-            <h3 class="text-blue-500 text-lg"><a href="#">Product 4</a></h3>
-            <p class="text-gray-600">
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-				Sit hic dolorum repellendus eum veritatis. 
-				Delectus dolor labore facilis veritatis quam laborum ducimus 
-				voluptatum blanditiis sapiente qui, animi illum corrupti dignissimos?
-            </p>
-          </div>
+    <section>
+      <h2 class="text-2xl text-blue-500">Other</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div class="bg-gray-100 p-4 rounded-lg">
+          <img src="/img/rong.png" alt="Product 1" class="w-full h-32 object-cover rounded-lg mb-4" />
+          <h3 class="text-blue-500 text-lg"><a href="#">Product 1</a> </h3>
+          <p class="text-gray-600">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Sit hic dolorum repellendus eum veritatis.
+            Delectus dolor labore facilis veritatis quam laborum ducimus
+            voluptatum blanditiis sapiente qui, animi illum corrupti dignissimos?
+          </p>
         </div>
-      </section>
-    </main>
+        <div class="bg-gray-100 p-4 rounded-lg">
+          <img src="/img/rong.png" alt="Product 2" class="w-full h-32 object-cover rounded-lg mb-4" />
+          <h3 class="text-blue-500 text-lg"><a href="#">Product 2</a></h3>
+          <p class="text-gray-600">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Sit hic dolorum repellendus eum veritatis.
+            Delectus dolor labore facilis veritatis quam laborum ducimus
+            voluptatum blanditiis sapiente qui, animi illum corrupti dignissimos?
+          </p>
+        </div>
+        <div class="bg-gray-100 p-4 rounded-lg">
+          <img src="/img/rong.png" alt="Product 3" class="w-full h-32 object-cover rounded-lg mb-4" />
+          <h3 class="text-blue-500 text-lg"><a href="#">Product 3</a></h3>
+          <p class="text-gray-600">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Sit hic dolorum repellendus eum veritatis.
+            Delectus dolor labore facilis veritatis quam laborum ducimus
+            voluptatum blanditiis sapiente qui, animi illum corrupti dignissimos?
+          </p>
+        </div>
+        <div class="bg-gray-100 p-4 rounded-lg">
+          <img src="/img/ngua.jpg" alt="Product 4" class="w-full h-32 object-cover rounded-lg mb-4" />
+          <h3 class="text-blue-500 text-lg"><a href="#">Product 4</a></h3>
+          <p class="text-gray-600">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Sit hic dolorum repellendus eum veritatis.
+            Delectus dolor labore facilis veritatis quam laborum ducimus
+            voluptatum blanditiis sapiente qui, animi illum corrupti dignissimos?
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
 
-    <footer class="bg-blue-500 text-white py-8">
-      <p class="text-sm">
-        &copy; 2024 Food Store
-      </p>
-    </footer>
-  </body>
+  <footer class="bg-blue-500 text-white py-8">
+    <div class="container mx-auto flex justify-between">
+      <div>
+        <p class="text-sm">
+          &copy; 2024 Food Store
+        </p>
+        
+      </div>
+      <ul class="flex justify-end">
+        <li><a href="#" class="text-sm">Privacy Policy</a></li>
+        <li><a href="#" class="text-sm">Terms of Service</a></li>
+        <li><a href="/page/contact.html" class="text-sm">Contact Us</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
 </html>

@@ -22,20 +22,22 @@ li {
 	display: inline;
 	margin-right: 10px;
 }
-li a{
+
+li a {
 	padding: 14px 16px;
 	text-decoration: none;
-	color:#0e0d0d;
-}
-li a:hover {
-	background-color: #333;
+	color: #0e0d0d;
 }
 
 a {
 	text-decoration: none;
 	color: #666666;
 }
-* {box-sizing: border-box;}
+
+* {
+	box-sizing: border-box;
+}
+
 img {
 	width: 1535px;
 	height: 297px;
@@ -44,91 +46,105 @@ img {
 main {
 	padding: 20px;
 }
+
 nav {
-    float: left;
-    max-width: 160px;
-    margin: 0;
-    padding: 1em;
-  width: 250px;
-  padding: 0;
-  list-style-type: none;
-  text-align: left;
+	float: left;
+	max-width: 160px;
+	margin: 0;
+	padding: 1em;
+	width: 250px;
+	padding: 0;
+	list-style-type: none;
+	text-align: left;
 }
- 
+
 nav ul {
-    list-style-type: none;
-    padding: 0;
+	list-style-type: none;
+	padding: 0;
 }
-nav li a{
+
+nav li a {
 	text-decoration: none;
-  color: #1b1616;
-  font-weight: bold;
-  display: block;
+	color: #1b1616;
+	font-weight: bold;
+	display: block;
 }
-nav li:hover{
+
+nav li:hover {
 	background: #f1f1f1;
 }
-    nav ul li a{
-		text-decoration: underline;
-	}
-nav ul a {
-    text-decoration: none;
+
+nav ul li a {
+	text-decoration: underline;
 }
+
+nav ul a {
+	text-decoration: none;
+}
+
 .products {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	grid-gap: 20px;
-	
+
 }
+
 p {
 	text-overflow: ellipsis;
 }
+
 .product {
 	padding: 20px;
 	border: 1px solid #ccc;
 	border-radius: 5px;
 }
+
 .search-container {
 	float: right;
-  }
-   
-  .input[type=text] {
+}
+
+.input[type=text] {
 	padding: 6px;
 	margin-top: 8px;
 	font-size: 17px;
 	border: none;
-  }
-   
-  .search-container button {
+
+}
+
+.search-container button {
 	float: right;
-	padding: 6px 10px;
-	margin-top: 8px;
-	margin-right: 16px;
+	margin-right: 20px;
 	background: #ddd;
-	font-size: 17px;
+	font-size: 16px;
 	border: none;
 	cursor: pointer;
-  }
-   
- .search-container button:hover {
+}
+
+.search-container button:hover {
 	background: #ccc;
-  }
-  @media screen and (max-width: 600px) {
-     .search-container {
-	  float: none;
+}
+
+@media screen and (max-width: 600px) {
+	.search-container {
+		float: none;
 	}
-	.input[type=text],  .search-container button {
-	  float: none;
-	  display: block;
-	  text-align: left;
-	  width: 100%;
-	  margin: 0;
-	  padding: 14px;
+
+	.input[type=text],
+	.search-container button {
+		float: none;
+		display: block;
+		text-align: left;
+		width: 100%;
+		margin: 0;
+		padding: 14px;
+
 	}
+
 	.div input[type=text] {
-	  border: 1px solid #ccc;  
+		border: 1px solid #ccc;
 	}
-  }
+}
+
 .product img {
 	width: 100%;
 	height: auto;
@@ -144,14 +160,34 @@ footer {
 	background-color: #f4f4f4;
 	padding: 20px;
 }
+
 .pagination {
-		display: inline-block;
-	  }
-	  
+	display: inline-block;
+}
+
 .pagination a {
-		color: black;
-		float: left;
-		padding: 8px 16px;
-		text-decoration: none;
-		text-align: center;
+	color: rgb(133, 132, 132);
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 16px;
+}
+
+.container {
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+@media (max-width: 1000px) {
+	.footer {
+		flex-direction: column;
+	}
 }
