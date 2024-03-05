@@ -1,0 +1,195 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #989898;
+	padding: 20px;
+
+}
+
+header h1 {
+	margin: 0;
+	margin-right: 1300px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	margin-right: 30px;
+}
+
+li a {
+	padding: 14px 16px;
+	text-decoration: none;
+	color: #0e0d0d;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	width: 1535px;
+	height: 297px;
+}
+
+main {
+	padding: 20px;
+}
+
+nav {
+	float: left;
+	max-width: 160px;
+	margin: 0;
+	padding: 1em;
+	width: 250px;
+	padding: 0;
+	list-style-type: none;
+	text-align: left;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #1b1616;
+	font-weight: bold;
+	display: block;
+}
+
+nav li:hover {
+	background: #f1f1f1;
+}
+
+nav ul li a {
+	text-decoration: underline;
+}
+
+nav ul a {
+	text-decoration: none;
+}
+.search-container {
+	float: right;
+}
+
+.input[type=text] {
+	padding: 6px;
+	margin-top: 8px;
+	font-size: 17px;
+	border: none;
+
+}
+
+.search-container button {
+	float: right;
+	margin-right: 20px;
+	background: #ddd;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+.search-container button:hover {
+	background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+	.search-container {
+		float: none;
+	}
+
+	.input[type=text],
+	.search-container button {
+		float: none;
+		display: block;
+		text-align: left;
+		width: 100%;
+		margin: 0;
+		padding: 14px;
+
+	}
+
+	.div input[type=text] {
+		border: 1px solid #ccc;
+	}
+}
+.contact {
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+footer {
+	background-color: #f4f4f4;
+	padding: 20px;
+}
+
+.pagination {
+	display: inline-block;
+}
+
+.pagination a {
+	color: rgb(133, 132, 132);
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 16px;
+}
+
+.container {
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+@media (max-width: 1000px) {
+	.footer {
+		flex-direction: column;
+	}
+}
+.post {
+	width: 300px;
+}
+.footer ul li  {
+	display: flex	;
+}
+a.button{
+	display: inline-block;
+	padding: 8px 16px;
+	background-color: #f5f5f5;
+	text-decoration: none;
+	border-radius: 10px;
+}
+a.button.facebook{
+	background-color: #1877F2;
+	color: #ffffff;
+}
+a.button.instagram{
+	background-color: #E4405F;
+	color: #ffffff;
+}
