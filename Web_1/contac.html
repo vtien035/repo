@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact List</title>
+    <link rel="stylesheet" href="/Web_1/style.css/main.css">
+    <link rel="stylesheet" href="/Web_1/style.css/contact.css">
+</head>
+<body>
+    <div>
+        <ul class="bg-blue-500 text-black">
+          <li><a href="/Web_1/index.html">Home</a></li>
+          <li><a href="/Web_1/contac.html">Contact</a></li>
+          <li><a href="/Web_1/404.html">404 Not Found</a></li>
+        </ul>
+    
+      </div>
+    <div class="container">
+        <div class="contact-list">
+            <!-- Contact cards will be generated here -->
+        </div>
+        <div class="pagination">
+            <button onclick="loadContacts(1)">First</button>
+            <button onclick="loadContacts(0)">Previous</button>
+            <button onclick="loadContacts(2)">Next</button>
+            <button onclick="loadContacts(3)">Last</button>
+        </div>
+    </div>
+    <script>
+        const contacts = [
+            { name: 'Tien Nguyen', email: 'trung93.tbc19@gmail.com', phone: '888-888-8888' },
+            { name: 'Memory', email: 'tenkill2001@gmail.com', phone: '987-654-3210' },
+            // Add more contacts here
+        ];
+
+        function loadContacts(page) {
+            const startIndex = (page - 1) * 2;
+            const endIndex = startIndex + 2;
+            const contactList = document.querySelector('.contact-list');
+            contactList.innerHTML = '';
+
+            for (let i = startIndex; i < endIndex; i++) {
+                if (contacts[i]) {
+                    const contactCard = document.createElement('div');
+                    contactCard.className = 'contact-card';
+                    contactCard.innerHTML = `
+                        <h2>${contacts[i].name}</h2>
+                        <p>Email: ${contacts[i].email}</p>
+                        <p>Phone: ${contacts[i].phone}</p>
+                    `;
+                    contactList.appendChild(contactCard);
+                }
+            }
+
+            const prevButton = document.querySelector('button:nth-child(2)');
+            const nextButton = document.querySelector('button:nth-child(3)');
+
+            if (startIndex === 0) {
+                prevButton.disabled = true;
+            } else {
+                prevButton.disabled = false;
+            }
+
+            if (endIndex >= contacts.length) {
+                nextButton.disabled = true;
+            } else {
+                nextButton.disabled = false;
+            }
+        }
+
+        loadContacts(1);
+    </script>
+</body>
+</html>
