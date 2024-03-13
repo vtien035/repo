@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript ES6</title>
+</head>
+<body>
+    <h1>Demo JS classes</h1>
+    <p id="demo"></p>
+    <script>
+        class car{
+            constructor(name, user){
+                this.name= name;
+                this.user = user;
+            }
+        }
+        const car1 =  new car("Ferrari", "Luigi");
+        const car2 = new car("Mclaren", "Max");
+        
+        document.getElementById('demo').innerHTML = "Car 1 : "+car1.name+" "+"<br>"+"Name user : "+car1.user
+         + "<br>"+ "Car 2 : "+car2.name +" "+"<br>"+ "Name user : "+ car2.user;
+    </script>
+</body>
+</html>
