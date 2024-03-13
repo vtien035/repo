@@ -1,0 +1,113 @@
+* {
+    font-family: Roboto;
+    padding: 0;
+}
+
+.sec1 {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    box-sizing: border-box;
+    color: rgb(33, 37, 41);
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 80px;
+    justify-content: center;
+    line-height: 24px;
+    text-align: start;
+    text-size-adjust: 100%;
+    width: 1535px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+}
+
+.sec1 a {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    color: rgb(56, 176, 0);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 24px;
+    margin-left: 15px;
+    text-align: start;
+    text-decoration-color: rgb(56, 176, 0);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-transform: uppercase;
+}
+.sec1 h1{
+    font-size: 23;
+    width: 484px;
+    height: 70px;
+    margin-bottom: 50px;
+}
+.sec1 h6{
+    font-size: 16px;
+    width: 285px;
+    height: 0px;
+}
+
+.obj-fit {
+    width: 40px;
+    height: 40px;
+    top: 15px;
+    left: 693px;
+
+}
+.search_gl{
+    margin-left: 70px;
+}
+
+.ulink .sub-menu {
+    align-items: center;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(56, 176, 0);
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    box-sizing: border-box;
+    color: rgb(33, 37, 41);
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    height: 52px;
+    justify-content: center;
+    line-height: 20px;
+    position: sticky;
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 1535px;
+    z-index: 1000;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    list-style-type: none;
+    text-transform: uppercase;
+    font-family: Roboto;
+    letter-spacing: 0em;
+    text-align: right;
+
+}
+
+a {
+    text-decoration: none;
+}
