@@ -91,7 +91,7 @@ section iframe{
     text-decoration: none;
 }
 
-.btn {
+.sec4 .btn {
     --font-md: Roboto;
     --mau-md: #38B000;
     --index-md: 1000;
@@ -119,29 +119,8 @@ section iframe{
 }
 .sec4{
     width: 1518px;
-    font-size: 13;
-
-}
-.row{
-    display: flex;
-}
-.sec4 h2{
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    width: 450px;
-}
-.vd-1{
-    width: 400px;
-    height: 250px;
-}
-.vd-2{
-    width: 400px;
-    height: 250px;
-}
-.vd-3{
-    width: 400px;
-    height: 250px;
+    position: absolute;
+    top:4400px;
 }
 .sec2{
     font-size: var(--bs-body-font-size);
@@ -174,7 +153,7 @@ section iframe{
     align-items: center;
     /* margin-left:1200px; */
 }
-.btn-img{
+.sec2 .btn-img{
     --font-md: Roboto;
     --mau-md: #38B000;
     --index-md: 1000;
@@ -211,11 +190,11 @@ section iframe{
     text-decoration: none;
     font-size: 13;
 }
-article{
+/* article{
     align-items: center;
     display: flex;
     justify-content: center;
-}
+} */
 /* .row{
     display: flex;
 }   */

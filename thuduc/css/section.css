@@ -75,7 +75,7 @@ section hr{
     font-size: 13;
     width: 300px;
 }
-article{
+/* article{
     align-items: center;
     display: flex;
     justify-content: center;
@@ -83,4 +83,29 @@ article{
 }
 .row{
     display: flex;
-} 
+}  */
+/* .banner{
+    position: absolute;
+    top:4900px;
+    width: 1518px;
+    height: 600px;
+}
+.banner.big-title{   
+} */
+.banner{
+    position:relative;
+    width: 1320px;
+    top: 4000px;
+    height: 600px;
+    align-items: center;
+    display: flex;
+    text-transform: uppercase;
+    margin: auto;
+    color: #38B000;
+    font-size: 23px;
+}
+.banner_1{
+    width: 600px;
+    height: 100px;
+    margin-top: 10px;
+}

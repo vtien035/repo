@@ -3,6 +3,35 @@
     padding: 0;
 }
 
+header {
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-body-bg: #fff;
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    --mau-nen: rgba(255, 255, 255);
+    --time-transition: .2s ease;
+    --layer: 2022;
+    --font-md: Roboto;
+    --mau-md: #38B000;
+    --index-md: 1000;
+    --b-footer: #38B000;
+    color: #38B000;
+    text-align: center;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 56px;
+    background: var(--mau-md);
+    position: sticky;
+    top: 0;
+    z-index: var(--index-md);
+}
+
 .sec1 {
     background-attachment: scroll;
     background-clip: border-box;
@@ -47,11 +76,13 @@
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     text-transform: uppercase;
 }
-.sec1 h1{
+
+.sec1 h1 {
     font-size: 23;
     width: 484px;
 }
-.sec1 h6{
+
+.sec1 h6 {
     font-size: 16px;
     width: 285px;
 }
@@ -63,9 +94,12 @@
     margin-right: 30px;
 
 }
-.search_gl{
+
+.search_gl {
     margin-left: 70px;
 }
+
+header {}
 
 .dropdown-menu .sub-menu {
     align-items: center;
@@ -103,4 +137,8 @@
 
 a {
     text-decoration: none;
+}
+
+.fs-17 {
+    font-size: 17px;
 }
