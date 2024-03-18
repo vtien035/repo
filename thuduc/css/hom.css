@@ -4,18 +4,16 @@ footer {
     color:#fff ;
 	justify-content: space-between;
     height: 480px;
-    width: 1515px;
+    width: 1518px;
     position: absolute;
     background: rgba(56, 176, 0, 1);
     background-size: auto;
     top: 5977px;
+
 }
-footer img{
-    width: 20px;
-    height: 10px;
-}
+
 section iframe{
-    width: 1515px;
+    width: 1518px;
     height: 403px;
 }
 .map_view {
@@ -161,7 +159,7 @@ section iframe{
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif ;
+    font-family: 'Roboto', sans-serif ;
     display: inline-block;
     font-weight: 400;
     line-height: 1.5;
@@ -198,9 +196,3 @@ section iframe{
 /* .row{
     display: flex;
 }   */
-.img-1{
-    margin-right: 50px;
-} 
-.img-3{
-    margin-left: 50px;
-}
