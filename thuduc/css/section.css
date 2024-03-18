@@ -1,0 +1,86 @@
+.sec2{
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif ;
+    display: flex ;
+    position: relative ;
+    flex-direction: column ;
+    justify-content: center ;
+    align-items: center ;
+    width: 1353x;
+    height: 600px;
+    top: 50px;
+
+}
+.sec2 .img-big-title{
+    width: 273px;
+    height: 42px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #38B000;
+    align-items: center;
+}
+section hr{
+    width: 150px;
+    margin-bottom: 50px;
+}
+.btn-img{
+    --font-md: Roboto;
+    --mau-md: #38B000;
+    --index-md: 1000;
+    --b-footer: #38B000;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif ;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    font-size: 1rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    margin-top: 50px ;
+    box-shadow: none ;
+    border: none;
+    background: var(--mau-md);
+    color: white ;
+    padding: 8px 60px;
+    border-radius: 30px;
+    width: 200px;
+}
+.img-title{
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif ;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;;
+    max-width: 1353x;
+    text-decoration: none;
+    font-size: 13;
+    width: 300px;
+}
+article{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.row{
+    display: flex;
+} 
