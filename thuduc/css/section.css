@@ -75,27 +75,10 @@ section hr{
     font-size: 13;
     width: 300px;
 }
-/* article{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-
-}
-.row{
-    display: flex;
-}  */
-/* .banner{
-    position: absolute;
-    top:4900px;
-    width: 1518px;
-    height: 600px;
-}
-.banner.big-title{   
-} */
 .banner{
-    position:relative;
+    position: relative;
     width: 1320px;
-    top: 4000px;
+    top: 2900px;
     height: 600px;
     align-items: center;
     display: flex;
@@ -108,4 +91,29 @@ section hr{
     width: 600px;
     height: 100px;
     margin-top: 10px;
+}
+header{
+    background-color: #38B000;
+    display: flex;
+    text-transform: uppercase;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+header ul{
+    display: flex;
+}
+header a{
+    text-decoration: none;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+}
+header li{
+    list-style-type: none;
+    align-items: center;
+}
+header a:hover{
+    color: white;
 }
