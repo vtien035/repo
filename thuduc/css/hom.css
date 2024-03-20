@@ -121,7 +121,7 @@ section iframe{
 .sec4{
     width: 1518px;
     position: relative;
-    top:2850px;
+    margin-top: 50px;
 }
 .sec2{
     box-sizing: border-box;
@@ -132,7 +132,7 @@ section iframe{
     align-items: center ;
     width: 1518px;
     height: 600px;
-    top: 2800px;
+    margin-top: 50px;
 }
 .img-big-title{
     width: 273px;

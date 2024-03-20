@@ -1,24 +1,18 @@
-.sec2{
-    font-size: var(--bs-body-font-size);
-    font-weight: var(--bs-body-font-weight);
-    line-height: var(--bs-body-line-height);
-    color: var(--bs-body-color);
-    text-align: var(--bs-body-text-align);
+.sec2 {
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif ;
-    display: flex ;
-    position: relative ;
-    flex-direction: column ;
-    justify-content: center ;
-    align-items: center ;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 1353x;
     height: 600px;
-    top: 50px;
-
 }
-.sec2 .img-big-title{
+
+.sec2 .img-big-title {
     width: 273px;
     height: 42px;
     font-family: 'Roboto';
@@ -30,11 +24,13 @@
     color: #38B000;
     align-items: center;
 }
-section hr{
+
+section hr {
     width: 150px;
     margin-bottom: 50px;
 }
-.btn-img{
+
+.btn-img {
     --font-md: Roboto;
     --mau-md: #38B000;
     --index-md: 1000;
@@ -42,7 +38,7 @@ section hr{
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif ;
+    font-family: 'Roboto', sans-serif;
     display: inline-block;
     font-weight: 400;
     line-height: 1.5;
@@ -53,32 +49,34 @@ section hr{
     user-select: none;
     font-size: 1rem;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    margin-top: 50px ;
-    box-shadow: none ;
+    margin-top: 50px;
+    box-shadow: none;
     border: none;
     background: var(--mau-md);
-    color: white ;
+    color: white;
     padding: 8px 60px;
     border-radius: 30px;
     width: 200px;
 }
-.img-title{
+
+.img-title {
     -webkit-text-size-adjust: 100%;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif ;
+    font-family: 'Roboto', sans-serif;
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     display: flex;
-    flex-wrap: wrap;;
+    flex-wrap: wrap;
+    ;
     max-width: 1353x;
     text-decoration: none;
     font-size: 13;
     width: 300px;
 }
-.banner{
+
+.banner {
     position: relative;
     width: 1200px;
-    top: 2900px;
     height: 600px;
     align-items: center;
     display: flex;
@@ -86,13 +84,16 @@ section hr{
     margin: auto;
     color: #38B000;
     font-size: 23px;
+    top: 100px;
 }
-.banner_1{
+
+.banner_1 {
     width: 600px;
     height: 100px;
     margin-top: 10px;
 }
-header{
+
+header {
     background-color: #38B000;
     display: flex;
     text-transform: uppercase;
@@ -102,19 +103,88 @@ header{
     height: 50px;
     padding-top: 20px;
 }
-header ul{
+.tuyen_truyen{
+    margin-top: 50px;
+}
+.doanh_nghiep{
+    margin-top: 50px;
+}
+header ul {
     display: flex;
 }
-header a{
+
+header a {
     text-decoration: none;
     font-size: 18px;
     align-items: center;
     justify-content: center;
+    color: white;
 }
-header li{
+
+header li {
     list-style-type: none;
     align-items: center;
 }
-header a:hover{
+
+header a:hover {
     color: white;
 }
+
+.gioithieu {
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.contentgt {
+    width: 1200px;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.contentgt p {
+    color: #ff1a1a;
+    ;
+}
+
+.rss {
+    width: 44px;
+    height: 20px;
+}
+
+.vi {
+    width: 30px;
+    height: 20px;
+
+}
+
+.en {
+    width: 30px;
+    height: 20px;
+}
+
+/* .btn-sk {
+    float: none;
+    clear: both;
+    width: 30%;
+    margin: 10% auto;
+    background: #eee;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    width: 100%;
+    padding: 20px;
+    border-left: 5px solid;
+    position: relative;
+    z-index: 2;
+    text-decoration: none;
+    color: #444;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.btn-sk a:hover:after{ width: 100%; }
+.btn-sk:last-child a:after{ background: #38B000; } */

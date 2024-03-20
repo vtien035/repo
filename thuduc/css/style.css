@@ -54,38 +54,25 @@
 
 }
 
-.ngonngu {
+/* .ngonngu {
     list-style-type: none;
     display: flex;
     text-decoration: none;
-}
-.ngonngu a{
+} */
+.contentgt a{
     text-decoration: none;
 }
-.rss {
-    width: 44px;
-    height: 20px;
-}
 
-.vi {
-    width: 30px;
-    height: 20px;
-
-}
-
-.en {
-    width: 30px;
-    height: 20px;
-}
 .kenhdichvu{
     display: flex;
     height: 227px;
     width: 1518px;
     align-items: center;
+    color: #FFFFFF;
 
 }
 .kenhdichvu a:hover{
-    color: wheat;
+    color: rgb(255, 255, 255);
 }
 .item-head-landing{
     text-decoration: none;
@@ -121,3 +108,59 @@
     margin-right: 10px;
     background-color: #FFFFFF;
 }
+.btn-sk{
+    float: none; 
+    clear: both;
+    width: 300px; 
+    margin: 10% auto;
+    background: #eee;
+  }
+  
+  .btn-sk ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .btn-sk li{
+    float: none; 
+    width: 100%;
+  }
+  
+  .btn-sk li a{
+    display: block; 
+    width: 100%; 
+    padding: 20px; 
+    border-left: 5px solid; 
+    position: relative; 
+    z-index: 2;
+    text-decoration: none;
+    color: #444;
+    box-sizing: border-box;  
+    -moz-box-sizing: border-box;  
+    -webkit-box-sizing: border-box; 
+  }
+    
+  .btn-sk li a:hover{ border-bottom: 0px; color: #fff;}
+  .btn-sk li:last-child a{ border-left: 10px solid #38B000; }
+  
+  .btn-sk li a:after { 
+    content: "";
+    height: 100%; 
+    left: 0; 
+    top: 0; 
+    width: 0px;  
+    position: absolute; 
+    transition: all 0.3s ease 0s; 
+    -webkit-transition: all 0.3s ease 0s; 
+    z-index: -1;
+  }
+  
+  .btn-sk li a:hover:after{ width: 100%; }
+  .btn-sk li:last-child a:after{ background: #38B000; }
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(http://themes.googleusercontent.com/static/fonts/Roboto/v6/wkfQbvfT_02e2IWO3yYueQ.woff) format('woff');
+  }
