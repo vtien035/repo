@@ -59,7 +59,9 @@
     display: flex;
     text-decoration: none;
 }
-
+.ngonngu a{
+    text-decoration: none;
+}
 .rss {
     width: 44px;
     height: 20px;
@@ -81,6 +83,9 @@
     width: 1518px;
     align-items: center;
 
+}
+.kenhdichvu a:hover{
+    color: wheat;
 }
 .item-head-landing{
     text-decoration: none;
