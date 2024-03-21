@@ -1,3 +1,7 @@
+.container-fluid{
+    width: 1518px;
+}
+
 .vpdt {
     position: absolute;
     width: 150px;
