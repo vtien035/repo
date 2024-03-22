@@ -67,7 +67,6 @@ section hr {
     --bs-gutter-y: 0;
     display: flex;
     flex-wrap: wrap;
-    ;
     max-width: 1353x;
     text-decoration: none;
     font-size: 13;
@@ -84,7 +83,7 @@ section hr {
     margin: auto;
     color: #38B000;
     font-size: 23px;
-    top: 100px;
+    /* top: 100px; */
 }
 
 .banner_1 {
@@ -147,7 +146,6 @@ header a:hover {
 
 .contentgt p {
     color: #ff1a1a;
-    ;
 }
 
 .rss {
