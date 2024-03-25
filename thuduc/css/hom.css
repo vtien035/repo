@@ -21,7 +21,7 @@ section iframe{
 }
 .map_view {
     position: absolute;
-    top: 5570px;
+    top: 5575px;
     text-align: var(--bs-body-text-align);
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
@@ -121,7 +121,7 @@ section iframe{
 .sec4{
     width: 1518px;
     position: relative;
-    margin-top: 50px;
+    top: 450px;
 }
 .sec2{
     box-sizing: border-box;
@@ -132,7 +132,7 @@ section iframe{
     align-items: center ;
     width: 1518px;
     height: 600px;
-    margin-top: 50px;
+    top: 350px;
 }
 .img-big-title{
     width: 273px;

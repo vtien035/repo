@@ -83,13 +83,13 @@ section hr {
     margin: auto;
     color: #38B000;
     font-size: 23px;
-    /* top: 100px; */
+    top: 450px;
 }
 
 .banner_1 {
     width: 600px;
     height: 100px;
-    margin-top: 10px;
+    top: 5206px;
 }
 
 header {
@@ -103,10 +103,10 @@ header {
     padding-top: 20px;
 }
 .tuyen_truyen{
-    margin-top: 50px;
+    top: 100px;
 }
 .doanh_nghiep{
-    margin-top: 50px;
+    top: 150px;
 }
 header ul {
     display: flex;
