@@ -5,8 +5,15 @@ header {
     list-style-type: none;
     align-items: center;
     justify-content: center;
-    height: 60px;
 }
+.menu_header{
+    display: block;
+}
+@media only screen and (max-width: 600px) {
+    .menu_header {
+      display: none;
+    }
+  }
 header ul {
     display: flex;
 }
