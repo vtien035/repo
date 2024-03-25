@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box
+}
+
+.gioithieu {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.contentgt {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    width: 1200px;
+}
+
+.contentgt a {
+    text-decoration: none;
+}
+
+.contentgt span {
+    color: red;
+}
+
+.rss {
+    width: 44px;
+    height: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.vi,
+.en {
+    width: 30px;
+    height: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.btn-img {
+    --font-md: Roboto;
+    --mau-md: #38B000;
+    --index-md: 1000;
+    --b-footer: #38B000;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    font-size: 1rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    margin-top: 30px;
+    box-shadow: none;
+    border: none;
+    background: var(--mau-md);
+    color: white;
+    padding: 8px 60px;
+    border-radius: 30px;
+}
+.sec2{
+    margin-top: 70px;
+}
+.sec4{
+    margin-top: 70px;
+}
+.tuyen_truyen{
+    margin-top: 70px;
+}
+.doanh_nghiep{
+    margin-top: 70px;
+}
+.dichvukhac{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    
+}
+.dichvukhac a{
+    text-decoration: none;
+    padding: 20px 20px 20px 20px;
+}
