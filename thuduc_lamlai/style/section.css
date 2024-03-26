@@ -22,6 +22,7 @@
     display: flex;
     justify-content: center;
     margin-top: 70px;
+    width: 435px;
 }
 
 .bangtintuc {
@@ -62,73 +63,63 @@
     display: flex;
     text-decoration: none;
     font-size: 13;
-    width: 450px;
+    width: 400px;
 }
-
-.btn-sk {
-    float: none;
+nav{
+    float: none; 
     clear: both;
+    width: 30%; 
+    margin: 10% auto;
     background: #eee;
-    margin-top: 50px;
-}
-
-.btn-sk ul {
+  }
+  
+  nav ul {
     list-style: none;
     margin: 0px;
     padding: 0px;
-}
-
-.btn-sk li {
-    float: none;
+  }
+  
+  nav li{
+    float: none; 
     width: 100%;
-}
-
-.btn-sk li a {
-    display: block;
-    width: 100%;
-    padding: 20px;
-    border-left: 5px solid;
-    position: relative;
+  }
+  
+  nav li a{
+    display: block; 
+    width: 100%; 
+    padding: 20px; 
+    border-left: 5px solid; 
+    position: relative; 
     z-index: 2;
     text-decoration: none;
     color: #444;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-}
-
-.btn-sk li a:hover {
-    border-bottom: 0px;
-    color: #fff;
-}
-
-.btn-sk li:last-child a {
-    border-left: 10px solid #38B000;
-}
-
-.btn-sk li a:after {
+    box-sizing: border-box;  
+    -moz-box-sizing: border-box;  
+    -webkit-box-sizing: border-box; 
+  }
+    
+  nav li a:hover{ border-bottom: 0px; color: #fff;}
+  nav li:last-child a{ border-left: 10px solid #38B000; }
+  nav li a:after { 
     content: "";
-    height: 100%;
-    left: 0;
-    top: 0;
-    width: 0px;
-    position: absolute;
-    transition: all 0.3s ease 0s;
-    -webkit-transition: all 0.3s ease 0s;
+    height: 100%; 
+    left: 0; 
+    top: 0; 
+    width: 0px;  
+    position: absolute; 
+    transition: all 0.3s ease 0s; 
+    -webkit-transition: all 0.3s ease 0s; 
     z-index: -1;
-}
-
-.btn-sk li a:hover:after {
-    width: 100%;
-}
-
-.btn-sk li:last-child a:after {
-    background: #38B000;
-}
-
-@font-face {
+  }
+  
+  nav li a:hover:after{ width: 100%; }
+  nav li:last-child a:after{ background: #38B000; }
+  
+  
+  
+  @font-face {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 700;
-    src: local('Roboto Bold'), local('Roboto-Bold'), url(http://themes.googleusercontent.com/static/fonts/Roboto/v6/wkfQbvfT_02e2IWO3yYueQ.woff) format('woff');
-}
+    font-weight: 100;
+    src: local('Roboto'), local('Roboto'), url(http://themes.googleusercontent.com/static/fonts/roboto/v6/boeCNmOCCh-EWFLSfVffDg.woff) format('woff');
+  }
