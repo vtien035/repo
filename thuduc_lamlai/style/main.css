@@ -5,6 +5,7 @@ header {
     list-style-type: none;
     align-items: center;
     justify-content: center;
+    padding-top: 20px;
 }
 .menu_header{
     display: block;
@@ -102,3 +103,22 @@ header a:hover {
     bottom: 40px;
     right: 40px;
 }
+.slideshow-container {
+    max-width: 1500px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .fade {
+    animation: fade 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
