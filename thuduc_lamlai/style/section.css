@@ -20,17 +20,19 @@
 
 .tintuc_sukien {
     display: flex;
-    justify-content: center;
-    margin-top: 70px;
     width: 435px;
+}
+
+.tuyen_truyen img{
+    width: 416px;
+    height: 260px;
 }
 
 .bangtintuc {
     display: flex;
-    position: relative;
-    align-items: center;
     flex-direction: column;
     text-decoration: none;
+    justify-content: center;
 }
 
 .img-big-title {
@@ -39,8 +41,8 @@
     text-align: center;
     text-decoration: none;
     color: #38B000;
-    align-items: center;
     text-transform: uppercase;
+    justify-content: center;
 }
 
 .a-simple {
@@ -48,7 +50,6 @@
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center;
     border: 5px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
@@ -68,7 +69,7 @@
 nav{
     float: none; 
     clear: both;
-    width: 30%; 
+    width: 40%; 
     margin: 10% auto;
     background: #eee;
   }
