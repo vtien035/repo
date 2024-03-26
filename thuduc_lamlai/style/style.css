@@ -1,7 +1,5 @@
 * {
-    box-sizing: border-box;
-    align-items: center;
-}
+    box-sizing: border-box;}
 
 .gioithieu {
     align-items: center;
@@ -63,12 +61,6 @@
     color: white;
     padding: 8px 60px;
     border-radius: 30px;
-}
-.sec2{
-    margin-top: 70px;
-}
-.sec4{
-    margin-top: 70px;
 }
 
 .dichvukhac{

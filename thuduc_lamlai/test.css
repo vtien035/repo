@@ -1,18 +1,9 @@
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-.mySlides {
-  display: none;
-}
-
-.fade {
-  animation: fade 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+/* Group 27770 */
+.ky_hieu{
+position: absolute;
+width: 16px;
+height: 16px;
+left: 316px;
+top: 1017px;
+text-decoration: none;
 }
