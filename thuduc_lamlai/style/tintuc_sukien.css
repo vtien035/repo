@@ -1,0 +1,10 @@
+.thongtin{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.big-title{
+    text-transform: uppercase;
+    color: #38B000;
+}

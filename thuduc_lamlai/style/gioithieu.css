@@ -1,0 +1,23 @@
+.container23{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gioithieu_page{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.ques li{
+    list-style-type: none;
+}
+.ques a{
+    text-decoration: none;
+    color: rgb(33,37,41);
+}
+.gioithieu_page h6,h4{
+    color: rgba(24, 84, 156, 1);
+    text-transform: uppercase;
+}
