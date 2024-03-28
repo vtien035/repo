@@ -123,7 +123,44 @@ header a:hover {
     from {opacity: .4}
     to {opacity: 1}
   }
-  .dropdown-content_1 a {
+  .dropdown-content_b a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 10px 12px;
+
+}
+
+.dropdown-content_b a:hover {
+    background-color: #38B000;
+}
+
+.dropdown_b:hover .dropdown-content_b {
+    display: block;
+}
+
+.dropdown_b {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content_b {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    left: -250px;
+    margin-top: 0.25rem;
+}
+
+.dropdown_b:hover .dropdown-content_b {
+    display: block;
+}
+
+.dropdown-content_1 a {
     text-decoration: none;
     display: block;
     color: black;
@@ -139,7 +176,7 @@ header a:hover {
     display: block;
 }
 
-.dropdown_1 {
+.dropdown_1{
     position: relative;
     display: inline-block;
 }
@@ -148,7 +185,7 @@ header a:hover {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 300px;
+    min-width: 400px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 12px 16px;
     z-index: 1;
