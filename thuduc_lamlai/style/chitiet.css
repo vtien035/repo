@@ -1,0 +1,18 @@
+.container-chitiet {
+    width: 1518px;
+    padding: 50px;
+    overflow: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  #post {
+    width: 1000px;
+    float: left;
+    align-items: center;
+    justify-content: center;
+  }
+  .img-content{
+    align-items: center;
+    width: 800px;
+    justify-content: center;
+  }
