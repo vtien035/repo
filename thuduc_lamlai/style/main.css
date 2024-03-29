@@ -60,11 +60,12 @@ header a:hover {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 300px;
+    min-width: 350px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 12px 16px;
     z-index: 1;
     margin-top: 0.25rem;
+    text-transform: none;
 
 }
 
@@ -73,16 +74,13 @@ header a:hover {
 }
 .banner {
     position: relative;
-    height: 500px;
     align-items: center;
     display: flex;
     text-transform: uppercase;
     margin: auto;
     color: #38B000;
     font-size: 23px;
-    width: 90%;
 }
-
 .map_view {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif ;
@@ -155,6 +153,7 @@ header a:hover {
     z-index: 1;
     left: -250px;
     margin-top: 0.25rem;
+    text-transform: none;
 }
 
 .dropdown_b:hover .dropdown-content_b {
@@ -191,6 +190,7 @@ header a:hover {
     padding: 12px 16px;
     z-index: 1;
     margin-top: 0.25rem;
+    text-transform: none;
 }
 
 .dropdown_1:hover .dropdown-content_1 {
