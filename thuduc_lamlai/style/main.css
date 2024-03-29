@@ -196,3 +196,39 @@ header a:hover {
 .dropdown_1:hover .dropdown-content_1 {
     display: block;
 }
+.dropdown-content_c a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 10px 12px;
+
+}
+
+.dropdown-content_c a:hover {
+    background-color: #38B000;
+}
+
+.dropdown_c:hover .dropdown-content_c {
+    display: block;
+}
+
+.dropdown_c {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content_c {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    left: -250px;
+    margin-top: 0.25rem;
+}
+
+.dropdown_c:hover .dropdown-content_c {
+    display: block;
+}
