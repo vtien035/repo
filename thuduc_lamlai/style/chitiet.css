@@ -6,13 +6,18 @@
     justify-content: center;
   }
   #post {
-    width: 1000px;
+    width: 900px;
     float: left;
     align-items: center;
     justify-content: center;
+    margin-right: 20px;
   }
   .img-content{
     align-items: center;
     width: 800px;
     justify-content: center;
+  }
+  #sidebar{
+        width: 350px;
+        float: left;
   }
