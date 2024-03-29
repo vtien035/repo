@@ -73,15 +73,16 @@ header a:hover {
 }
 .banner {
     position: relative;
-    width: 1200px;
-    height: 600px;
+    height: 500px;
     align-items: center;
     display: flex;
     text-transform: uppercase;
     margin: auto;
     color: #38B000;
     font-size: 23px;
+    width: 90%;
 }
+
 .map_view {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif ;
