@@ -1,23 +1,56 @@
 .container-chitiet {
-    width: 1518px;
-    padding: 50px;
+    width: 100%;
+    padding: 30px;
     overflow: auto;
     align-items: center;
     justify-content: center;
   }
   #post {
-    width: 900px;
+    width: 65%;
     float: left;
+  }
+  .content-chitiet{
     align-items: center;
     justify-content: center;
-    margin-right: 20px;
   }
   .img-content{
     align-items: center;
-    width: 800px;
-    justify-content: center;
+  justify-content: center;
+  }
+  .content-chitiet a{
+    text-decoration: none;
+    color:rgba(108, 108, 108, 1);
+  }
+  .container-chitiet h3{
+    color: rgba(24, 84, 156, 1);
   }
   #sidebar{
-        width: 350px;
+        width: 30%;
         float: left;
+        margin-top: 20px;
   }
+.tinkhac_chitiet{
+  padding: 10px;
+}
+.tintuc-footer{
+  float: right;
+}
+
+.back-page{
+  list-style-type: none;
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.chiase{
+  display: flex;
+  justify-content: center;
+}
+.chiase a{
+  text-decoration: none;
+}
+.tinkhac a{
+  text-decoration: none;
+  color: rgba(16, 16, 16, 1);
+
+}

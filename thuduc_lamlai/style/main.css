@@ -14,6 +14,9 @@ header {
     .menu_header {
       display: none;
     }
+    .toggle{
+        display: block;
+    }
   }
 header ul {
     display: flex;
