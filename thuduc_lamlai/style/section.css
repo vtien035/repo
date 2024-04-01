@@ -33,6 +33,20 @@
     text-decoration: none;
     justify-content: center;
 }
+.bangtintuc img{
+	display:block;
+	transition: all .3s ease;
+}
+.bangtintuc img:hover{
+	transform: scale(1.1); 
+} 
+.item-head-landing a{
+	display:block;
+	transition: all .3s ease;
+}
+.item-head-landing a:hover{
+	transform: scale(1.1); 
+} 
 
 .img-big-title {
     font-family: 'Roboto', sans-serif;

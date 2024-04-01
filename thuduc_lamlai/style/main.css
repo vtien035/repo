@@ -10,14 +10,14 @@ header {
 .menu_header{
     display: block;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     .menu_header {
-      /* display: none; */
       flex-direction: column;
     }
     .toggle{
         display: block;
     }
+    
   }
 header ul {
     display: flex;
