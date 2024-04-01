@@ -10,9 +10,10 @@ header {
 .menu_header{
     display: block;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .menu_header {
-      display: none;
+      /* display: none; */
+      flex-direction: column;
     }
     .toggle{
         display: block;
