@@ -1,0 +1,30 @@
+.head_index{
+    display: flex;
+}
+.timkiem-container {
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+select {
+    padding: 5px;
+}
+
+input {
+    padding: 5px;
+    width: 80%;
+}
+.search-filter{
+    width: 80%;
+    padding: 5px;
+}
+.timkiem{
+    margin-left: 150px;
+    background: rgba(56, 176, 0, 1);
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 50px;
+}

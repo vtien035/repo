@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./style/main.css">
     <link rel="stylesheet" href="./style/section.css">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/search.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -134,7 +135,27 @@
             </ul>
         </div>
     </header>
-
+    <section>
+        <div class="head_index container-fluid">
+            <span><a href="./index.html" style="text-decoration: none;color: rgba(16, 16, 16, 1);
+                ">Trang chủ</a></span>
+            <span>&gt;</span>
+            <span style="color: #38B000;">Tìm kiếm thông tin</span>
+        </div>
+        <div class="timkiem-container">
+            <h5>Từ khoá tìm kiếm</h5>
+            <input type="text" id="search-input" placeholder="Nhập từ khoá tìm kiếm">
+            <h5>Loại tìm kiếm</h5>
+            <select id="search-filter" class="search-filter">
+                <option value="tatca">Tất cả</option>
+                <option value="tintuc">Tin tức</option>
+                <option value="vanban">Văn bản</option>
+                <option value="thongbao">Thông báo</option>
+                <option value="thumoi">Thư mời</option>
+            </select>
+        </div>
+        <button class="timkiem">Tìm kiếm</button>
+    </section>
     <footer class="container-fluid d-flex flex-column align-1518s-center footer font-1">
         <aside class="d-flex flex-column justify-content-between flex-xl-row w-1349">
             <div class=" d-flex flex-column 1518 mb-3 mb-xl-0 p-2 p-xl-0">
