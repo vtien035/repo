@@ -1,24 +1,51 @@
+<!DOCTYPE html>
+<html>
+
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="./test.css">
+  <title>Google Translate API Example</title>
+  <link rel="stylesheet" href="./test.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<header>
-    <div id="wrapper">
-        <div id="header">
-            <div id="togle">
-                <i class="fas fa-bars"></i>
-            </div>
-            <nav>
-                <ul id="main_menu">
-                    <li><a href="#">Trang Chủ</a></li>
-                    <li><a href="#">Giới Thiệu</a></li>
-                    <li><a href="#">Tin Tức</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Liên Hệ</a></li>
-                </ul>
-            </nav>
-        </div>
 
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo"><a href="#">Demo</a></div>
+      <ul class="links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contat</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Demo</a></li>
+      </ul>
+      <a href="#" class="action_btn">Get Started</a>
+      <div class="toggle_btn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
     </div>
+      <div class="dropdown_menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contat</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Demo</a></li>
+        <li><a href="#" class="action_btn">Get Started</a></li>
+      </div>
+    </div>
+  </header>
+  <script>
+    const toggleBtn = document.querySelector('.toggle-btn');
+    const toggleBtnIcon = document.querySelector('.toggle_btn i')
+    const dropDownMenu = document.querySelector('.dropdown_menu')
 
-</header>
+    toggleBtn.onlick=function() {
+      dropDownMenu.classList.toggle('open')
+      const isOpen = dropDownMenu.classList.contains('open')
+      toggleBtnIcon.classList = isOpen
+      ?'fa-solid fa-xmark'
+      :'fa-solid fa-bars';
+    }
+  </script>
+</body>
+
+</html>
