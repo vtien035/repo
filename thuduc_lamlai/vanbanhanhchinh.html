@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./style/section.css">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/chitiet.css">
+    <link rel="stylesheet" href="./style/vanban.css">
     <link rel="stylesheet" href="./style/tintuc_sukien.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -90,10 +91,123 @@
             </ul>
         </div>
     </header>
-    <section>
-        
+    <section class="vanbanhanhchinh align-items-center justify-content-center container-fluid">
+        <div class="vanban d-flex container-fluid">
+            <a href="./index.html" style="color: rgba(108, 108, 108, 1);">Trang chủ</a>
+            <span>&gt;</span>
+            <a href="./vanbanhanhchinh.html" style="color: #38B000;">Văn bản hành chính</a>
+        </div>
+        <div class="timkiemvanban justify-content-center align-items-center">
+            <h3 class="text-uppercase justify-content-center align-items-center">văn bản hành chính</h3>
+            <div class="d-flex align-items-center justify-content-center">
+                <select id="search-filter" class="loaitimkiem">
+                    <option value="loaitailieu">Loại tài liệu</option>
+                    <option value="tintuc">Tin tức</option>
+                    <option value="vanban">Văn bản</option>
+                    <option value="thongbao">Thông báo</option>
+                    <option value="thumoi">Thư mời</option>
+                </select>
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Nhập từ khoá tìm kiếm">
+                    <button><i class="fas fa-search"></i>Tìm kiếm</button>
+                </div>
+            </div>
+            <div class="bangvanban">
+                <table>
+                    <thead>
+                      <tr>
+                        <th>STT</th>
+                        <th>Tiêu đề</th>
+                        <th>Số văn bản</th>
+                        <th>Loại tài liệu</th>
+                        <th>Phòng ban</th>
+                        <th>Số văn bản</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="head_table">1</td>
+                        <td>Công nhận phường đạt chuẩn tiếp cận pháp luật năm 2021
+                          <br>Tải file đính kèm :
+                          <br> <a href="#">File thứ 1: 30_kl-tt_2510202113.pdf</a>
+                        </td>
+                        <td class="body_table">593/QĐ-UBND </td>
+                        <td class="body_table">Văn bản hành chính </td>
+                        <td class="body_table">UBND Quận Thủ Đức </td>
+                        <td class="body_table">09-02-2022</td>
+                      </tr>
+                      <tr>
+                        <td class="head_table head_2">2</td>
+                        <td>Công nhận phường đạt chuẩn tiếp cận pháp luật năm 2021
+                          <br>Tải file đính kèm :
+                          <br><a href="#">File thứ 1: 30_kl-tt_2510202113.pdf</a>
+                        </td>
+                        <td class="body_table">593/QĐ-UBND </td>
+                        <td class="body_table">Văn bản hành chính </td>
+                        <td class="body_table">UBND Quận Thủ Đức </td>
+                        <td class="body_table">09-02-2022</td>
+                      </tr>
+                      <tr>
+                        <td class="head_table">3</td>
+                        <td>Công nhận phường đạt chuẩn tiếp cận pháp luật năm 2021
+                          <br>Tải file đính kèm :
+                          <br><a href="#">File thứ 1: 30_kl-tt_2510202113.pdf</a>
+                        </td>
+                        <td class="body_table">593/QĐ-UBND </td>
+                        <td class="body_table">Văn bản hành chính </td>
+                        <td class="body_table">UBND Quận Thủ Đức </td>
+                        <td class="body_table">09-02-2022</td>
+                      </tr>
+                      <tr>
+                        <td class="head_table head_2">4</td>
+                        <td>Công nhận phường đạt chuẩn tiếp cận pháp luật năm 2021
+                          <br>Tải file đính kèm :
+                          <br><a href="#">File thứ 1: 30_kl-tt_2510202113.pdf</a>
+                        </td>
+                        <td class="body_table">593/QĐ-UBND </td>
+                        <td class="body_table">Văn bản hành chính </td>
+                        <td class="body_table">UBND Quận Thủ Đức </td>
+                        <td class="body_table">09-02-2022</td>
+                      </tr>
+                      <tr>
+                        <td class="head_table">5</td>
+                        <td>Công nhận phường đạt chuẩn tiếp cận pháp luật năm 2021
+                          <br>Tải file đính kèm :
+                          <br><a href="#">File thứ 1: 30_kl-tt_2510202113.pdf</a>
+                        </td>
+                        <td class="body_table">593/QĐ-UBND </td>
+                        <td class="body_table">Văn bản hành chính </td>
+                        <td class="body_table">UBND Quận Thủ Đức </td>
+                        <td class="body_table">09-02-2022</td>
+                      </tr>
+                      <tr>
+                        <td class="head_table head_2">6</td>
+                        <td>Công nhận phường đạt chuẩn tiếp cận pháp luật năm 2021
+                          <br>Tải file đính kèm :
+                          <br><a href="#">File thứ 1: 30_kl-tt_2510202113.pdf</a>
+                        </td>
+                        <td class="body_table">593/QĐ-UBND </td>
+                        <td class="body_table">Văn bản hành chính </td>
+                        <td class="body_table">UBND Quận Thủ Đức </td>
+                        <td class="body_table">09-02-2022</td>
+                      </tr>
+                      <tr>
+                        <td class="head_table">7</td>
+                        <td>Công nhận phường đạt chuẩn tiếp cận pháp luật năm 2021
+                          <br>Tải file đính kèm :
+                          <br><a href="#">File thứ 1: 30_kl-tt_2510202113.pdf</a>
+                        </td>
+                        <td class="body_table">593/QĐ-UBND </td>
+                        <td class="body_table">Văn bản hành chính </td>
+                        <td class="body_table">UBND Quận Thủ Đức </td>
+                        <td class="body_table">09-02-2022</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
     </section>
-    <footer class="container-fluid d-flex flex-column align-1518s-center footer font-1">
+    <footer class="container-fluid d-flex flex-column align-items-center footer font-1">
         <aside class="d-flex flex-column justify-content-between flex-xl-row w-1349">
             <div class=" d-flex flex-column 1518 mb-3 mb-xl-0 p-2 p-xl-0">
                 <hgroup>

@@ -1,0 +1,33 @@
+.vanban a{
+  text-decoration: none;
+}
+.bangvanban table {
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 70px;
+  }
+  .bangvanban a{
+    text-decoration: none;
+  }
+  .bangvanban  th {
+
+    padding: 8px;
+    text-align: center;
+  }
+  .bangvanban th {
+    background: rgba(56, 176, 0, 1);
+
+  }
+  .head_table, .body_table{
+    text-align: center;
+  }
+  .head_2{
+    box-shadow: 0px 0.8px 0px 0px rgba(225, 225, 225, 1);
+
+  }
+  
