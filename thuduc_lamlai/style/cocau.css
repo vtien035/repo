@@ -1,46 +1,35 @@
-.info-box {
-    border: 2px solid #007bff;
-    width: 500px; /* Adjust as per your requirement */
-    padding: 10px;
-    font-family: Arial, sans-serif;
+.info-content {
+    padding: 20px;
+    align-items:center ;
+    justify-content: center;
+    border: 1px solid rgba(225, 225, 225, 1);
   }
 
-  .info-header {
-    background-color: #007bff;
-    color: white;
-    padding: 5px;
-    font-size: 16px;
-    font-weight: bold;
-  }
-
-  .info-content {
-    padding: 10px;
-  }
-
-  .photo-container {
+.photo-container {
     float: left;
     margin-right: 10px;
   }
 
-  .info-photo {
-    width: 100px; /* Adjust the size as you need */
-    height: 130px;
-    border: 1px solid #007bff;
+.info-photo {
+    width: 200px;
+    height: 248px;
   }
-
-  .text-sm {
-    font-size: 14px;
-  }
-
-  .text-bold {
-    font-weight: bold;
-  }
-
-  .clearfix::after {
+.clearfix::after {
     content: "";
     clear: both;
     display: table;
   }
-  .thongtin-cocau{
-    font-size: 13px;
+.thongtin-cocau{
+    font-size: 14px;
+  }
+  .cocau-tochuc{
+    padding: 20px;
+    position: relative;
+    width: 100%;
+  }
+  .phongban{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    border-radius: 3px;
   }
