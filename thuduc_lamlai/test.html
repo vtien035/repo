@@ -1,95 +1,179 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Display Box</title>
-  <style>
-    .info-box {
-      border: 2px solid #007bff;
-      width: 500px; /* Adjust as per your requirement */
-      padding: 10px;
-      font-family: Arial, sans-serif;
-    }
-
-    .info-header {
-      background-color: #007bff;
-      color: white;
-      padding: 5px;
-      font-size: 16px;
-      font-weight: bold;
-    }
-
-    .info-content {
-      padding: 10px;
-    }
-
-    .photo-container {
-      float: left;
-      margin-right: 10px;
-    }
-
-    .info-photo {
-      width: 100px; /* Adjust the size as you need */
-      height: 130px;
-      border: 1px solid #007bff;
-    }
-
-    .text-sm {
-      font-size: 14px;
-    }
-
-    .text-bold {
-      font-weight: bold;
-    }
-
-    .clearfix::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
-  </style>
-</head>
-<body>
-
-<div class="info-box">
-  <!-- Header -->
-  <div class="info-header">
-    Ông Nguyễn Văn A
-  </div>
-
-  <!-- Content -->
-  <div class="info-content clearfix">
-    <!-- Photo Column -->
-    <div class="photo-container">
-      <img src="./img/cocautochuc/nguyenvanhieu.png" alt="Photo of Ông Nguyễn Văn A" class="info-photo" />
-      <p>Giám đốc</p>
-    </div>
-    <!-- Text Column -->
-    <div>
-      <p><b>Ông Nguyễn Văn Hiếu</b></p>
-          <p><b>1. Phụ trách chỉ đạo các lĩnh vực:</b></p>
-        <p>Chiến lược phát triển của ngành; kế hoạch hoạt động của cơ quan;</p>
-       <p>Công tác Tổ chức cán bộ;</p>
-       <p>Công tác Văn phòng, Cơ quan Sở Giáo dục và Đào tạo;</p>
-       <p>Công tác cải cách hành chính;</p>
-       <p>Công tác thi đua – khen thưởng;</p>
-       <p>Công tác đối ngoại-quan hệ quốc tế.</p>
-       <p>Công tác ứng dụng công nghệ thông tin, xây dựng trường học thông minh;</p>
-        <p>Chương trình Chuyển đổi số ngành giáo dục</p>
-       <p>Các kỳ thi chứng chỉ ngoại ngữ, tin học quốc gia và quốc tế;</p>
-          <p><b>2. Chủ tài khoản số 1</b></p>
-          <p><b>3. Phụ trách các đơn vị: Văn phòng Sở; Phòng Tổ chức cán bộ;  Trung tâm Ngoại  ngữ - Tin học.</b></p>
-          <p><b>4. Phụ trách địa bàn: Quận 1, Quận 3, Quận 4, Quận 6, Quận 7, huyện Củ Chi.</b></p>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar Example</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+      .navbar {
+        background-color: #4caf50;
+        overflow: hidden;
+        display: flex;
+      }
+      .navbar li{
+        list-style-type: none;
+      }
+      .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .navbar a:hover {
+        background-color: #3e8e41;
+      }
+      .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+      .dropdown .dropbtn {
+        cursor: pointer;
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 350px;
+        z-index: 1;
+      }
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .search_bar{
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar container-fluid">
+      <li><a href=""><i class="fas fa-home"></i></a></li>
+    <li><a href="#home">Giới thiệu</a></li>
+     <li> <div class="dropdown">
+        <button class="dropbtn">
+          Tin tức - sự kiện
+        
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Sub-menu 1</a>
+          <a href="#">Sub-menu 2</a>
+          <a href="#">Sub-menu 3</a>
         </div>
+      </div></li>
+      <li><div class="dropdown">
+        <button class="dropbtn">
+          Văn bản
+        
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Sub-menu 1</a>
+          <a href="#">Sub-menu 2</a>
+          <a href="#">Sub-menu 3</a>
+        </div>
+      </div></li>
+      <li><div class="dropdown">
+        <button class="dropbtn">
+          Thông tin truyền thông
+        
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Sub-menu 1</a>
+          <a href="#">Sub-menu 2</a>
+          <a href="#">Sub-menu 3</a>
+        </div>
+      </div></li>
+      <li><div class="dropdown">
+        <button class="dropbtn">
+          Doanh nghiệp
+        
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Sub-menu 1</a>
+          <a href="#">Sub-menu 2</a>
+          <a href="#">Sub-menu 3</a>
+        </div>
+      </div></li>
+      <li><div class="dropdown">
+        <button class="dropbtn">
+          Ban tuyên cáo
+        
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Sub-menu 1</a>
+          <a href="#">Sub-menu 2</a>
+          <a href="#">Sub-menu 3</a>
+        </div>
+      </div></li>
+      <li><div class="dropdown">
+        <button class="dropbtn">
+          UBND phường
+        
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Sub-menu 1</a>
+          <a href="#">Sub-menu 2</a>
+          <a href="#">Sub-menu 3</a>
+        </div>
+      </div></li>
+      <li><div class="dropdown">
+        <button class="dropbtn">
+          Đơn vị sự nghiệp
+        
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Sub-menu 1</a>
+          <a href="#">Sub-menu 2</a>
+          <a href="#">Sub-menu 3</a>
+        </div>
+      </div></li>
+      <li><div class="dropdown">
+        <button class="dropbtn">
+          Liên hệ
+        
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Sub-menu 1</a>
+          <a href="#">Sub-menu 2</a>
+          <a href="#">Sub-menu 3</a>
+        </div>
+      </div></li>
+      <li><div class="search_bar" >
+        <a href=""><i class="fas fa-search"></i></a>
+        <i class="fa fa-bars" style="color: #fff;"></i>
+      </div></li>
+      
     </div>
-  </div>
-
-  <!-- Footer -->
-  <div class="info-header">
-    Chức vụ: Giảng viên
-  </div>
-</div>
-
-</body>
+    
+  </body>
 </html>
