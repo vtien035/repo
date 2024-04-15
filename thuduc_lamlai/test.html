@@ -1,179 +1,19 @@
 <!DOCTYPE html>
-<html lang="vi">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Navbar Example</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <style>
-      body {
-        margin: 0;
-        font-family: Arial, sans-serif;
-      }
-      .navbar {
-        background-color: #4caf50;
-        overflow: hidden;
-        display: flex;
-      }
-      .navbar li{
-        list-style-type: none;
-      }
-      .navbar a {
-        float: left;
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-      }
-      .navbar a:hover {
-        background-color: #3e8e41;
-      }
-      .dropdown {
-        float: left;
-        overflow: hidden;
-      }
-      .dropdown .dropbtn {
-        cursor: pointer;
-        font-size: 16px;
-        border: none;
-        outline: none;
-        color: white;
-        padding: 14px 16px;
-        background-color: inherit;
-        font-family: inherit;
-        margin: 0;
-      }
-      .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 350px;
-        z-index: 1;
-      }
-      .dropdown-content a {
-        float: none;
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        text-align: left;
-      }
-      .dropdown-content a:hover {
-        background-color: #ddd;
-      }
-      .dropdown:hover .dropdown-content {
-        display: block;
-      }
-      .search_bar{
-        float: right;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="navbar container-fluid">
-      <li><a href=""><i class="fas fa-home"></i></a></li>
-    <li><a href="#home">Giới thiệu</a></li>
-     <li> <div class="dropdown">
-        <button class="dropbtn">
-          Tin tức - sự kiện
-        
-        </button>
-        <div class="dropdown-content">
-          <a href="#">Sub-menu 1</a>
-          <a href="#">Sub-menu 2</a>
-          <a href="#">Sub-menu 3</a>
-        </div>
-      </div></li>
-      <li><div class="dropdown">
-        <button class="dropbtn">
-          Văn bản
-        
-        </button>
-        <div class="dropdown-content">
-          <a href="#">Sub-menu 1</a>
-          <a href="#">Sub-menu 2</a>
-          <a href="#">Sub-menu 3</a>
-        </div>
-      </div></li>
-      <li><div class="dropdown">
-        <button class="dropbtn">
-          Thông tin truyền thông
-        
-        </button>
-        <div class="dropdown-content">
-          <a href="#">Sub-menu 1</a>
-          <a href="#">Sub-menu 2</a>
-          <a href="#">Sub-menu 3</a>
-        </div>
-      </div></li>
-      <li><div class="dropdown">
-        <button class="dropbtn">
-          Doanh nghiệp
-        
-        </button>
-        <div class="dropdown-content">
-          <a href="#">Sub-menu 1</a>
-          <a href="#">Sub-menu 2</a>
-          <a href="#">Sub-menu 3</a>
-        </div>
-      </div></li>
-      <li><div class="dropdown">
-        <button class="dropbtn">
-          Ban tuyên cáo
-        
-        </button>
-        <div class="dropdown-content">
-          <a href="#">Sub-menu 1</a>
-          <a href="#">Sub-menu 2</a>
-          <a href="#">Sub-menu 3</a>
-        </div>
-      </div></li>
-      <li><div class="dropdown">
-        <button class="dropbtn">
-          UBND phường
-        
-        </button>
-        <div class="dropdown-content">
-          <a href="#">Sub-menu 1</a>
-          <a href="#">Sub-menu 2</a>
-          <a href="#">Sub-menu 3</a>
-        </div>
-      </div></li>
-      <li><div class="dropdown">
-        <button class="dropbtn">
-          Đơn vị sự nghiệp
-        
-        </button>
-        <div class="dropdown-content">
-          <a href="#">Sub-menu 1</a>
-          <a href="#">Sub-menu 2</a>
-          <a href="#">Sub-menu 3</a>
-        </div>
-      </div></li>
-      <li><div class="dropdown">
-        <button class="dropbtn">
-          Liên hệ
-        
-        </button>
-        <div class="dropdown-content">
-          <a href="#">Sub-menu 1</a>
-          <a href="#">Sub-menu 2</a>
-          <a href="#">Sub-menu 3</a>
-        </div>
-      </div></li>
-      <li><div class="search_bar" >
-        <a href=""><i class="fas fa-search"></i></a>
-        <i class="fa fa-bars" style="color: #fff;"></i>
-      </div></li>
-      
-    </div>
-    
-  </body>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Sidebar</title>
+<link rel="stylesheet" href="./test.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    Sidebar Content
+  </div>
+  <div class="content">
+    Main Content
+  </div>
+</div>
+</body>
 </html>

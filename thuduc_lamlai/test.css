@@ -1,22 +1,28 @@
-body {
-  font-family: Arial, sans-serif;
-}
-
-header {
+.container {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
 }
 
-#searchBar {
-  display: none;
-  justify-content: flex-end;
-  width: 100%;
+.sidebar {
+  width: 30%;
 }
 
-#searchInput {
-  margin-right: 10px;
+.content {
+  width: 70%;
 }
 
-#backButton {
-  display: none;
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    order: 2;
+    width: 100%;
+  }
+
+  .content {
+    order: 1;
+    width: 100%;
+  }
 }
